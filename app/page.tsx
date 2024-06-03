@@ -71,8 +71,21 @@ const ProfileSection: React.FC = () => {
     </div>
 
     <Link
+      className="mt-3 flex items-center cursor-pointer"
+      href="/portfolio.pdf"
+    >
+      <span className="hover:underline">Portfolio</span>
+      &nbsp;
+      <span
+        className="inline-block bg-secondary text-white text-xs px-2 rounded-full tracking-wide"
+      >
+        new
+      </span>
+    </Link>
+
+    <Link
       className="mt-10 flex items-center cursor-pointer"
-      href="#gohere"
+      href="#hireme"
     >
       Get to know me better
       <BiChevronDown size={20} />
@@ -80,7 +93,7 @@ const ProfileSection: React.FC = () => {
   </div>
 };
 const AboutSection: React.FC = () => {
-  return <div id="gohere" className="h-screen flex flex-col justify-center">
+  return <div id="hireme" className="h-screen flex flex-col justify-center">
     <SectionTitle title="About Me" />
     <p className="mt-5 my-2">I&apos;m a frontend engineer, with 5+ years of experience, specializing in Nuxt (Vue.js) and Next (React.js) frameworks.</p>
     <p className="my-2">I&apos;m passionate to work as a web developer, since kid. I like simplicity and very well organized.</p>
