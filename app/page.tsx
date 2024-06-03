@@ -47,12 +47,12 @@ const TimelineContent: React.FC<TimelineContentObject> = ({
 const ProfileSection: React.FC = () => {
   return <div className="h-screen flex flex-col justify-center">
     <h1 className={`${mooli.className} text-5xl`}> Hans Cahya </h1>
-    <h3 className="mt-2 text-3xl"> Frontend Engineer </h3>
+    <h3 className="mt-2 text-3xl"> Front-End Engineer </h3>
 
     <div className="mt-10 text-lg">
       <div>
         <span className="font-semibold">Phone</span>
-        <span>&nbsp; +62-856-1142-982</span>
+        <span>&nbsp; +62-856-11-42-982</span>
       </div>
       <div>
         <span className="font-semibold">Email</span>
@@ -95,7 +95,7 @@ const ProfileSection: React.FC = () => {
 const AboutSection: React.FC = () => {
   return <div id="hireme" className="h-screen flex flex-col justify-center">
     <SectionTitle title="About Me" />
-    <p className="mt-5 my-2">I&apos;m a frontend engineer, with 5+ years of experience, specializing in Nuxt (Vue.js) and Next (React.js) frameworks.</p>
+    <p className="mt-5 my-2">I&apos;m a Front-End engineer, with 5+ years of experience, specializing in Nuxt (Vue.js) and Next (React.js) frameworks.</p>
     <p className="my-2">I&apos;m passionate to work as a web developer, since kid. I like simplicity and very well organized.</p>
     <p className="my-2">I&apos;m meticulous in my approach, ensuring clear documentation and descriptive Git commit messages.</p>
     <p className="my-2">Problem-solving is a core part of what I enjoy about development, and I thrive on finding elegant solutions.</p>
@@ -191,7 +191,7 @@ const ContactSection: React.FC = () => {
     <div className="mt-10 text-lg">
       <div>
         <span className="font-semibold">Phone</span>
-        <span>&nbsp; +62-856-1142-982</span>
+        <span>&nbsp; +62-856-11-42-982</span>
       </div>
       <div>
         <span className="font-semibold">Email</span>
