@@ -12,7 +12,6 @@ import { highlights, expertises, educations, careers, sideProjects } from './con
 
 const mooli = Mooli({ weight: '400', subsets: ["latin"] });
 
-
 const SectionTitle: React.FC<{ title: string }> = ({ title }) => {
   return <div className="flex items-center gap-4">
     <h2 className={`${mooli.className} text-nowrap text-4xl w-fit`}> { title } </h2>
@@ -71,17 +70,17 @@ const ProfileSection: React.FC = () => {
       <Link className="hover:underline" href={`https://gitlab.com`}>Gitlab</Link>
     </div>
 
-    <div
+    <Link
       className="mt-10 flex items-center cursor-pointer"
-      // onClick={() => window.scrollTo({ top: 100, behavior: 'smooth' })}
+      href="#gohere"
     >
       Get to know me better
       <BiChevronDown size={20} />
-    </div>
+    </Link>
   </div>
 };
 const AboutSection: React.FC = () => {
-  return <div className="h-screen flex flex-col justify-center">
+  return <div id="gohere" className="h-screen flex flex-col justify-center">
     <SectionTitle title="About Me" />
     <p className="mt-5 my-2">I&apos;m a frontend engineer, with 5+ years of experience, specializing in Nuxt (Vue.js) and Next (React.js) frameworks.</p>
     <p className="my-2">I&apos;m passionate to work as a web developer, since kid. I like simplicity and very well organized.</p>
