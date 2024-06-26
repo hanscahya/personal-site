@@ -1,4 +1,4 @@
-export const title = "Hans Cahya | Frontend Engineer, Tech Enthusiast";
+export const title = "Hans Cahya B | Frontend Engineer, Tech Enthusiast";
 export const description = "I'm a Frontend Engineer from Tangerang. Check out my tech journey, projects, and let's connect!";
 export const images = "https://www.hanscahya.com/images/profile-pict.png";
 
