@@ -17,6 +17,7 @@ const CoreTimelineContent: React.FC<TimelineContentObject> = ({
       {lists ? (
         <ul className={`mt-2 ${hideList ? 'list-none' : 'list-disc'}`}>
           {lists.map((list, listIndex) => {
+            if (list === '') return <li className="list-none"></li>;
             return <li key={listIndex}> {list} </li>;
           })}
         </ul>

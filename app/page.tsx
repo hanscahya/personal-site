@@ -28,7 +28,7 @@ function HomePage() {
         <SectionContact />
 
         <div className="mb-4 text-sm">
-          &copy;{moment().format('YYYY')} by Hans Cahya B. Built using Next.js,
+          &copy;{moment().format('YYYY')} by Hans Cahya. Built using Next.js,
           Tailwind CSS. Deployed in Netlify.
         </div>
       </div>
